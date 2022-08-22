@@ -1,0 +1,65 @@
+body {
+    /* used to remove default margin */
+    margin: 0;
+    font-family: sans-serif;
+    /* bring everthing to the center horzontally  */
+    display: flex;
+    /* to bring them back */
+    flex-direction:column;
+    /* it bring every thing  to center directly */
+    align-items: center;
+    height: 100vh;
+    /* it brings ever thing center horizontally */
+    justify-content: center;
+    /* background:url("https://media.istockphoto.com/photos/podium-for-product-presentation-a-minimalistic-scene-of-a-felled-tree-picture-id1322389790?k=20&m=1322389790&s=612x612&w=0&h=69AevZ0JPorhuqiPYY_Fcire-RPNDiGeaZmDqjnlI5Y="); */
+    background: url("https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-align: center;
+    color:rgb(194, 218, 194);
+
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(128, 117, 202);
+    opacity: .9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+
+}
+ .clock #ampm{
+     /* top: -1; */
+     bottom: 0;
+     position: absolute;
+     width: 60px;
+     height: 30px;
+     font-size: 20px;
+     background-color: rgb(16, 102, 52);
+ }
